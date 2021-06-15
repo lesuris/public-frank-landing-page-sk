@@ -3395,6 +3395,15 @@ ANIMATION
     height: 500px;
 }
 
+.news-e15 {
+    display: block;
+    width: 170px;
+    height: 50px;
+    background-image: url(https://img.cncenter.cz/images/e15/dist/svg/logo-e15-cz.svg);
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
 /*
 ==============================
 PAGINATION
