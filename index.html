@@ -734,6 +734,7 @@
                 <h2 class="text-center">
                     Férové a najdostupnejšie riešenie na trhu.
                 </h2>
+                <!--
                 <p class="text-center">
                     <span class="special-offer"
                         ><img
@@ -745,7 +746,7 @@
                         nezáväzne objednať na skúšku ešte dnes!</span
                     >
                 </p>
-
+                -->
                 <hr class="space" />
                 <div class="row">
                     <div class="col-md-4">
@@ -753,9 +754,11 @@
                             <div class="list-group-item pricing-price">
                                 19 <span>eur</span><span>/mesačne</span
                                 ><span>*</span>
+                                <!--
                                 <div class="special-offer">
                                     V akcii ušetríte 114 eur ročne!
                                 </div>
+                                -->
                             </div>
                             <div class="list-group-item pricing-name">
                                 <h3>Štandard</h3>
@@ -802,9 +805,11 @@
                             <div class="list-group-item pricing-price">
                                 39 <span>eur</span><span>/mesačne</span
                                 ><span>*</span>
+                                <!--
                                 <div class="special-offer">
                                     V akcii ušetríte 234 eur ročne!
                                 </div>
+                                -->
                             </div>
                             <div class="list-group-item pricing-name">
                                 <h3>Prémium</h3>
@@ -853,9 +858,11 @@
                             <div class="list-group-item pricing-price">
                                 149 <span>eur</span><span>/mesačne</span
                                 ><span>*</span>
+                                <!--
                                 <div class="special-offer">
                                     V akcii ušetríte 894 eur ročne!
                                 </div>
+                                -->
                             </div>
                             <div class="list-group-item pricing-name">
                                 <h3>Enterprise</h3>
@@ -1287,7 +1294,8 @@
 
                 $('.buynow').click(function (e) {
                     e.preventDefault();
-                    $('#modal-title').text('Nezáväzne vyskúšať + Využiť akciu');
+                    // $('#modal-title').text('Nezáväzne vyskúšať + Využiť akciu');
+                    $('#modal-title').text('Nezáväzne vyskúšať');
                     $('#submit-regform').text('Odoslať správu');
                     currentFlag = $(this).data('flag');
                     $('#reserveModal').trigger('focus');
