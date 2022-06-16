@@ -7539,7 +7539,9 @@ VARIOUS
 ------------------------------
 */
     hr.space {
-        height: 35px;
+        margin-top: 50px;
+        height: 100px;
+        margin-bottom: 50px;
     }
 
     hr.space.xs {
